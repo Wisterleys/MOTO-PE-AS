@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #888888;
+	width: auto;
+	height: auto;
+	font-family: arial, sans-serif;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+div#geral{
+		position: relative;
+		left: center;
+		height: 1200px;
+		width: 1900px;
+		background: url("../../_imagens/moto.jpg")no-repeat;
+		background-size: 100%;
+		
+		
+		
+
+	}
+
+header{
+		background-color: #f0f0f0;
+		width: 1900px;
+		position: relative;
+		left: 0px;
+		
+	
+	}
+header div#cabecalho img#logo{
+	position: relative;
+	width: 800px;
+	height: 200px;
+	left: 590px;
+		
+}
+header div#cabecalho img#icon{
+	position: absolute;
+	left: 1630px;
+	top: 30px;
+	width: 200px;
+		
+}
+header nav p{
+	position: relative;
+	left: 500px;
+	font-size: 20pt;
+	padding: 20px;
+	border-radius: 30px;
+	background-color: rgba(0,0,0,.9);
+	margin: 10px;
+	color: white;
+		
+
+}
+header nav p:hover{
+	background-color: gold;
+}
+
+section{
+	width: 1500px;
+	height: 600px;
+
+}
+		
+	
+	
+	
+div#ajeite{
+	position: relative;
+	top: 0px;
+	width: 1430px;
+	margin: 1px;
+	height: 670px;
+	overflow: hidden;
+	
+		
+		
+}
+div#quem{
+	background-color: rgba(0,0,0,.8);
+	border-radius: 60px;
+	padding: 50px;
+	
+}
+div#quem h2{
+	margin: auto;
+	width: 350px;
+	color: gold;
+	font-size: 70pt;
+	
+}
+div#quem p{
+	color: white;
+	font-size: 25pt;
+	text-align: justify;
+	
+}
+div#quem h3{
+	margin: auto;
+	width: 350px;
+	color: gold;
+	font-size: 20pt;
+}
+footer#roda{
+	position: relative;
+	width: 1880px;
+	height: 150px;
+	right: 1px;
+	margin: 0px;
+	padding: 10px;
+	top: -50px;
+	background-color: #f0f0f0;
+	
+		
+}
+footer p{
+	position: relative;
+	left: -60px;
+	text-decoration: bold;
+	font-size: 20pt;
+	position: relative;
+	display: inline;
+	color: black;
+	top: -10px;
+	margin: 250px;
+	
+
+}
+footer p#cop {
+	position: relative;
+	left: 610px;
+}
+
+nav p{
+		display: inline;
+}
+input{
+	position: relative;
+	left: 450px;
+	padding: 10px;
+	margin: -50px 30px 30px 30px;
+	border-radius: 30px;
+	font-size: 20px;
+	boder: 1px solid #fefefe;
+	background: none;
+	color: gold;
+	width: 500px;
+
+}
+input#sub{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 520px;
+	font-size: 25pt;
+}
+input#sub:hover{
+	background-color: #ff2929;
+}
+
+::-webkit-input-placeholder{
+	font-size: 20pt;
+	padding: 30px;
+	box-shadow: 10px 10px 10px black;
+	color: orange;
+}
+
+.foto{
+	width: 1200px;
+	position: absolute;
+	left: 150px;
+	margin: 0px;
+	padding: 0px;
+	opacity: 0;
+	animation-name: animacao;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+.foto:nth-child(1){
+
+}
+.foto:nth-child(2){
+	animation-delay: 5s;
+}
+.foto:nth-child(3){
+	animation-delay: 10s;
+}
+.foto:nth-child(4){
+	animation-delay: 25s;
+}
+.foto:nth-child(5){
+	animation-delay: 20s;
+}
+.foto:nth-child(6){
+	animation-delay: 25s;
+}
+.foto:nth-child(7){
+	animation-delay: 30s;
+}
+.foto:nth-child(8){
+	animation-delay: 35s;
+}
+.foto:nth-child(9){
+	animation-delay: 40s;
+}
+
+@keyframes animacao{
+	25%{
+		opacity: 1;
+		transform:scale(1.1,1.1);
+	}
+
+	50%{
+		opacity: 0;
+	}
+}

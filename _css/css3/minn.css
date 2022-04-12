@@ -1,0 +1,240 @@
+@charset "UTF-8";
+*{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding: 0px;
+}
+html{
+	padding: 0px;
+	
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #888888;
+	font-family: arial, sans-serif;
+	
+
+}
+header{
+		
+	background-color: #f0f0f0;
+	width: 1366px;
+	position: relative;
+	right: 0px
+
+}
+header div#cabecalho img#logo{
+	position: relative;
+	left: 390px;
+}
+header div#cabecalho img#icon{
+	position: absolute;
+	left: 1100px;
+	top: 30px;
+	width: 200px;
+}
+header nav p{
+	position: relative;
+	left: 345px;
+	border-radius: 30px;
+	background-color: rgba(0,0,0,.9);
+	padding: 10px;
+	margin: 10px;
+	color: white;
+
+}
+header nav p:hover{
+	background-color: gold;
+}
+		
+div#geral{
+	position: absolute;
+	left: 0px;
+	margin-top: -5px;
+	height: 890px;
+	width: 1366px;
+	background: url(../../_imagens/moto2.jpg);
+	background-size: 105%;
+	
+
+}
+	
+	
+div#ajeite{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 800px;
+	margin: -5px;
+	height: 400px;
+	overflow: hidden;
+	
+		
+}
+div#quem{
+	background-color: rgba(0,0,0,.8);
+	border-radius: 60px;
+	padding: 50px;
+	
+}
+div#quem h2{
+	margin: auto;
+	width: 150px;
+	color: gold;
+	font-size: 30pt;
+	
+}
+div#quem p{
+	color: white;
+	font-size: 14pt;
+	text-align: justify;
+	
+}
+
+footer#roda{
+	position: relative;
+	width: 1350px;
+	height: 130px;
+	right: 10px;
+	margin: 10px;
+	padding: 10px;
+	top: 0px;
+	background-color: #f0f0f0;
+}
+	
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+section{
+	position: relative;
+	left: 150px;
+	padding: 75px;
+	width: 750px;
+	margin: 50px;
+	height: 340px;
+	overflow: hidden;
+	
+	
+	
+
+}
+
+
+	
+footer{
+	position: relative;
+	width: 1180px;
+	height: 100px;
+	right: 335px;
+	margin: 5px;
+	padding: 10px;
+	top: -29px;
+	background-color: #f0f0f0;
+	
+}
+footer p{
+	text-decoration: bold;
+	position: relative;
+	left: -30px;
+	display: inline;
+	color: black;
+	top: -15px;
+	margin: 140px;
+	
+
+}
+footer p#cop {
+	position: relative;
+	left: 420px;
+}
+nav p{
+		display: inline;
+}
+
+input{
+	position: relative;
+	left: 150px;
+	padding: 10px;
+	margin: -50px 15px 15px 15px;
+	border-radius: 30px;
+	boder: 1px solid #fefefe;
+	background: none;
+	color: gold;
+	width: 400px;
+	outline: none;
+	
+
+}
+input#sub{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 420px;
+	font-size: 18pt;
+}
+input#sub:hover{
+	background-color: #ff2929;
+}
+
+::-webkit-input-placeholder{
+	font-size: 14pt;
+	padding: 30px;
+	box-shadow: 10px 10px 10px black;
+	color: orange;
+}
+
+.foto{
+	width: 750px;
+	position: absolute;
+	left: 20px;
+	opacity: 0;
+	animation-name: animacao;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+.foto:nth-child(1){
+
+}
+.foto:nth-child(2){
+	animation-delay: 5s;
+}
+.foto:nth-child(3){
+	animation-delay: 10s;
+}
+.foto:nth-child(4){
+	animation-delay: 25s;
+}
+.foto:nth-child(5){
+	animation-delay: 20s;
+}
+.foto:nth-child(6){
+	animation-delay: 25s;
+}
+.foto:nth-child(7){
+	animation-delay: 30s;
+}
+.foto:nth-child(8){
+	animation-delay: 35s;
+}
+.foto:nth-child(9){
+	animation-delay: 40s;
+}
+
+@keyframes animacao{
+	25%{
+		opacity: 1;
+		transform:scale(1.1,1.1);
+	}
+
+	50%{
+		opacity: 0;
+	}
+}
+
